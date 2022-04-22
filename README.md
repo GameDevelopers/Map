@@ -30,16 +30,19 @@
 ![마을맵](https://user-images.githubusercontent.com/99639267/164385507-d0344570-33a9-4899-b991-1c8124899f03.png)
 - Grass 3~5(프리팹), 박스콜라이더로 Camera 안쪽 벽, 나머지 배경배치
 
+> 4/22 보스맵
+> ![Boss](https://user-images.githubusercontent.com/99639267/164674514-7d2e04a1-ab50-445a-911b-03b1565d80f0.png)
+- Crowd 애니메이션, BackGround, Ground, FrontGround1, FrontGround2는 장식. Sorting Layers에서 앞 뒤 구분
+
 - 완성 후 할 것
-> 마을, 보스 맵 튜토리얼맵 완성 > Layers 정리 > 꽃, 석상
+> 튜토리얼맵 Layers 정리 > 기능 추가..( 시네마틱 카메라 )
 
 - 진행 형태
 튜토리얼맵은 프리팹으로 만들어서 재배치 후 SortingLayer와 OrderLayer를 사용 -> 맵 완성 후 정리필요
-박스형태를 따라 배치( 바닥은 프리팹 Floor 1~3 ), 꽃 2개 애니메이션 ( 프리팹 grass1, 2 ), ( 프리팹 Pillar 1,2와 Door )
-마을 맵부터는 Heriachy에서 Layer 배치와 Insperctor의 SortingLayer를 따로 두고 Sprite 그대로 사용 
+마을맵과 보스맵은 Sprite 그대로 붙여넣고 SortingLayer와 게임오브젝트의 z축을 이용해 배치
+
 - 참고
-Heirachy에서 1Floor 2Floor 묶었지만 같은 1번맵
-// Assets에 Player와 Sprites는 끌어다 쓰는 용이므로 지워도 상관X
+Heirachy에서 1Floor -> 맵 프리팹
 MapScene 설명
 - reBack 참고한 이미지, ChechkCamera 테스트용 카메라, 흰박스 (Floor, Wall, Platforms로 했으나 차이x)
 - (Sorting Layers)BackGround, MiddleGround, ForeGround1~3으로 이미지 배치중, Player : 스프라이트 한장 크기확인용
