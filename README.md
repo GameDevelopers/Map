@@ -35,7 +35,8 @@
 - Crowd 애니메이션, BackGround, Ground, FrontGround1, FrontGround2는 장식. Sorting Layers에서 앞 뒤 구분
 
 - 완성 후 할 것
-> 튜토리얼맵 Layers 정리 > 기능 추가..( 시네마틱 카메라 )
+- 포탈 ( 새 씬 열기 ), 석상, 튜토리얼맵 장식추가
+- 튜토리얼맵 Layers 정리 > 기능 추가..( 시네마틱 카메라 )
 
 - 진행 형태
 튜토리얼맵은 프리팹으로 만들어서 재배치 후 SortingLayer와 OrderLayer를 사용 -> 맵 완성 후 정리필요
