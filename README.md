@@ -15,28 +15,29 @@
 ![door3](https://user-images.githubusercontent.com/99639267/163789616-21688163-bd53-422c-a3ce-399719852a9e.png)
 - 문 애니메이션
 
->4/20
-  ![가로](https://user-images.githubusercontent.com/99639267/164375689-89d0aaa6-e746-4589-9580-761bdcead7fc.png)
-  ![부품](https://user-images.githubusercontent.com/99639267/164375699-32570949-fd38-4dd9-8206-fca501e34c44.png)
+> 4/20
+![가로](https://user-images.githubusercontent.com/99639267/164375689-89d0aaa6-e746-4589-9580-761bdcead7fc.png)
+![부품](https://user-images.githubusercontent.com/99639267/164375699-32570949-fd38-4dd9-8206-fca501e34c44.png)
 - 맵 축소, 마을 sprite 준비
 
 
 
 
-> 4/21 마을맵
+> 4/21
 ![Vill](https://user-images.githubusercontent.com/99639267/164379644-273b0613-fcc2-4469-af69-3066ba7ee17e.png)
-- Layers(Ground)에서 작업, Sprite 그대로 사용
+- 마을맵 Layers(Ground)에서 작업, Sprite 그대로 사용
 - BackGround, Ground, FrontGround 오브젝트는 z축 위치를 바꾸기 위해 나눔. Sorting Layers에서 앞 뒤 구분
-  ![마을맵](https://user-images.githubusercontent.com/99639267/164385507-d0344570-33a9-4899-b991-1c8124899f03.png)
+![마을맵](https://user-images.githubusercontent.com/99639267/164385507-d0344570-33a9-4899-b991-1c8124899f03.png)
 - Grass 3~5(프리팹), 박스콜라이더로 Camera 안쪽 벽, 나머지 배경배치
 
-> 4/22 보스맵
-  ![Boss](https://user-images.githubusercontent.com/99639267/164674514-7d2e04a1-ab50-445a-911b-03b1565d80f0.png)
-- Crowd 애니메이션, BackGround, Ground, FrontGround1, FrontGround2는 장식. Sorting Layers에서 앞 뒤 구분
+> 4/22
+![Boss](https://user-images.githubusercontent.com/99639267/164674514-7d2e04a1-ab50-445a-911b-03b1565d80f0.png)
 
-> 4/25 ~ 26 포탈구현
-  ![Portal](https://user-images.githubusercontent.com/99639267/165413423-07df01f2-9b9e-4047-b249-6f9a82159d7d.png)
-- 프리팹 : Portal1~3(마을, 튜토, 보스), Canvas1(UI1)2(UI2,3), PortalController, Sprite+Animation
+- 보스맵 Crowd 애니메이션, BackGround, Ground, FrontGround1, FrontGround2는 장식. Sorting Layers에서 앞 뒤 구분
+
+> 4/25 ~ 26
+![Portal](https://user-images.githubusercontent.com/99639267/165413423-07df01f2-9b9e-4047-b249-6f9a82159d7d.png)
+- 포탈구현 프리팹 : Portal1~3(마을, 튜토, 보스), Canvas1(UI1)2(UI2,3), PortalController, Sprite+Animation
 > 작동방식
 - Portal 콜라이더 트리거가 tag Player와 만날 시 캔버스 활성화 -> 떨어지면 비활성화 -> 포탈UI가 활성화 되었고 키보드 윗키 누를 시 이동
 - Portal에 PortalController 컴포넌트 추가하고 PortalUI와 Portal의 Prefab을 적용(튜토와 보스는 Portal1, Canvas1(UI1), 마을은 Portal2,3과 Canvas2(UI2,3))
