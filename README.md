@@ -39,6 +39,7 @@
 ![Portal](https://user-images.githubusercontent.com/99639267/165413423-07df01f2-9b9e-4047-b249-6f9a82159d7d.png)
 - 포탈구현 프리팹 : Portal1~3(마을, 튜토, 보스), Canvas1(UI1)2(UI2,3), PortalController, Sprite+Animation
 > 작동방식
+- Build Setting에서 Scene 추가
 - Portal 콜라이더 트리거가 tag Player와 만날 시 캔버스 활성화 -> 떨어지면 비활성화 -> 포탈UI가 활성화 되었고 키보드 윗키 누를 시 이동
 - Portal에 PortalController 컴포넌트 추가하고 PortalUI와 Portal의 Prefab을 적용(튜토와 보스는 Portal1, Canvas1(UI1), 마을은 Portal2,3과 Canvas2(UI2,3))
 
