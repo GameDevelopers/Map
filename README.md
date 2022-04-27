@@ -15,9 +15,9 @@
 ![door3](https://user-images.githubusercontent.com/99639267/163789616-21688163-bd53-422c-a3ce-399719852a9e.png)
 - 문 애니메이션
 
-> 4/20
-![가로](https://user-images.githubusercontent.com/99639267/164375689-89d0aaa6-e746-4589-9580-761bdcead7fc.png)
-![부품](https://user-images.githubusercontent.com/99639267/164375699-32570949-fd38-4dd9-8206-fca501e34c44.png)
+>4/20
+  ![가로](https://user-images.githubusercontent.com/99639267/164375689-89d0aaa6-e746-4589-9580-761bdcead7fc.png)
+  ![부품](https://user-images.githubusercontent.com/99639267/164375699-32570949-fd38-4dd9-8206-fca501e34c44.png)
 - 맵 축소, 마을 sprite 준비
 
 
