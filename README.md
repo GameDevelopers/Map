@@ -31,7 +31,7 @@
 - Grass 3~5(프리팹), 박스콜라이더로 Camera 안쪽 벽, 나머지 배경배치
 
 > 4/22 보스맵
-> ![Boss](https://user-images.githubusercontent.com/99639267/164674514-7d2e04a1-ab50-445a-911b-03b1565d80f0.png)
+![Boss](https://user-images.githubusercontent.com/99639267/164674514-7d2e04a1-ab50-445a-911b-03b1565d80f0.png)
 - Crowd 애니메이션, BackGround, Ground, FrontGround1, FrontGround2는 장식. Sorting Layers에서 앞 뒤 구분
 
 > 4/25 ~ 26 포탈구현
