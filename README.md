@@ -43,9 +43,8 @@
 - Portal 콜라이더 트리거가 tag Player와 만날 시 캔버스 활성화 -> 떨어지면 비활성화 -> 포탈UI가 활성화 되었고 키보드 윗키 누를 시 이동
 - Portal에 PortalController 컴포넌트 추가하고 PortalUI와 Portal의 Prefab을 적용(튜토와 보스는 Portal1, Canvas1(UI1), 마을은 Portal2,3과 Canvas2(UI2,3))
 
-- 완성 후 할 것
-- 석상, 튜토리얼맵 장식추가
-- 튜토리얼맵 Layers 정리 > 기능 추가..( 시네마틱 카메라 )
+> 4/28~29
+![맵](https://user-images.githubusercontent.com/99639267/165904474-9544bcf6-d0c9-465d-aaa6-acfc34855e4f.png)
 
 - 진행 형태
 튜토리얼맵은 프리팹으로 만들어서 재배치 후 SortingLayer와 OrderLayer를 사용 -> 맵 완성 후 정리필요
